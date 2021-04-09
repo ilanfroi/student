@@ -1,0 +1,5 @@
+---
+# vars file for bash_env
+
+# Dont change!
+skel_dir: '/etc/skel/'
