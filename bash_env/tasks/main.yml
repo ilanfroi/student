@@ -3,7 +3,7 @@
  - name: put away .bashrc
    template:
      src: templates/_bashrc.j2
-     dest: "{{ skel_dir }}/. bashrc"
+     dest: "{{ skel_dir }}/.bashrc"
      owner: "{{ bash_user | default('root') }}"
      group: "{{ bash_group | default('root') }}"
      mode: 0644
