@@ -19,6 +19,6 @@
    template:
      src: templates/_vimrc.j2
      dest: "{{ skel_dir }}/.vimrc"
-     owner: "{{ bash_user | default(' root') }}"
-     group: "{{ bash_group | default(' root') }}"
+     owner: "{{ bash_user | default('root') }}"
+     group: "{{ bash_group | default('root') }}"
      mode: 0644
